@@ -12,7 +12,9 @@ Oferta pilot este pentru firme locale care au nevoie de o pagină clară de prez
 
 ## Oferta pilot
 
-350 lei pentru o pagină personalizată, cu servicii, contact, apel și WhatsApp. Pentru cine dorește doar fișierele HTML, pachetul de șabloane este disponibil separat la 49 lei.
+350 lei pentru o pagină personalizată, cu servicii, contact, apel și WhatsApp. În pagina de plată, serviciul pilot este listat în USD, la aproximativ 75 USD. Pentru cine dorește doar fișierele HTML, pachetul de șabloane este disponibil separat la 18 USD+.
+
+Pentru un prim pas mai mic, mini-auditul pentru site mobil pornește de la 10 USD, iar personalizarea rapidă pornește de la 35 USD.
 
 ## Ce nu este inclus
 
