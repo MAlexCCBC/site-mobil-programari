@@ -2,6 +2,10 @@
 
 Un pachet de pagini HTML gata de personalizat pentru servicii locale. Nu necesită server, framework sau abonament: fișierele pot fi deschise direct în browser și apoi încărcate pe orice hosting static.
 
+## Descarcă pachetul
+
+Varianta completă, cu livrare instant: [cumpără de pe Ko-fi](https://ko-fi.com/s/0ae000897d).
+
 ## Conținut
 
 - `demo-servicii-locale.html` — șablon general pentru servicii locale
