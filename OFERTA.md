@@ -17,3 +17,12 @@ Oferta pilot este pentru firme locale care au nevoie de o pagină clară de prez
 ## Ce nu este inclus
 
 Domeniul, hostingul, logo-ul și fotografiile clientului nu sunt incluse. Acestea se adaugă doar dacă sunt furnizate sau comandate separat.
+
+## Cum lucrăm
+
+1. Primești și poți verifica demo-ul înainte de comandă.
+2. Trimiți numele firmei, serviciile, zona, programul și datele de contact.
+3. Primesti prima variantă în 24–48h după primirea materialelor.
+4. Verificăm împreună butoanele de apel, WhatsApp și email înainte de livrare.
+
+Pagina îmbunătățește claritatea contactului, dar nu reprezintă o garanție de vânzări sau de poziționare în Google. Nu folosim testimoniale inventate și nu publicăm date demonstrative ca date reale.
