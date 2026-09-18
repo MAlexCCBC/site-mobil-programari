@@ -6,6 +6,8 @@ Un pachet de pagini HTML gata de personalizat pentru servicii locale. Nu necesit
 
 Varianta completă, cu livrare instant: [cumpără de pe Ko-fi](https://ko-fi.com/s/0ae000897d).
 
+Pentru adaptare la o afacere concretă: [cere personalizare](https://ko-fi.com/c/fe53e0bf79).
+
 ## Conținut
 
 - `demo-servicii-locale.html` — șablon general pentru servicii locale
