@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://malexccbc.github.io/site-mobil-programari/sitemap.xml
