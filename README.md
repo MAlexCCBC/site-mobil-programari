@@ -8,6 +8,14 @@ Varianta completă, cu livrare instant: [cumpără de pe Ko-fi](https://ko-fi.co
 
 Pentru adaptare la o afacere concretă: [cere personalizare](https://ko-fi.com/c/fe53e0bf79).
 
+## English
+
+Responsive HTML templates for mobile booking pages for local services, auto repair shops and HVAC businesses. Instant digital delivery, with optional customization for a real business.
+
+- [Buy the template pack](https://ko-fi.com/s/0ae000897d)
+- [Quick customization](https://ko-fi.com/c/360c5bd407)
+- [Full customization](https://ko-fi.com/c/fe53e0bf79)
+
 ## Conținut
 
 - `demo-servicii-locale.html` — șablon general pentru servicii locale
