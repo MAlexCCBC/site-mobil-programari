@@ -2,19 +2,17 @@
 
 ## Titlu
 
-Pachet de pagină web mobilă pentru programări — HTML gata de personalizat
+Pagină mobilă pentru programări — personalizare și livrare în 24–48h
 
 ## Descriere
 
-Primești o pagină web rapidă, gândită pentru telefon, care prezintă serviciile și îi ajută pe clienți să ceară o programare prin apel, WhatsApp sau email.
+Primești o pagină web gândită pentru telefon, personalizată cu informațiile reale ale firmei: servicii, zonă, program și date de contact. Clientul poate suna, scrie pe WhatsApp sau cere o programare dintr-un singur loc.
 
-Pachetul include trei modele: servicii locale, service auto și servicii HVAC. Textele, culorile, serviciile și datele de contact pot fi înlocuite ușor pentru afacerea ta.
+Oferta pilot este pentru firme locale care au nevoie de o pagină clară de prezentare și contact, fără să refacă întregul site. Livrarea se face în 24–48h după primirea materialelor.
 
-Nu necesită instalare de aplicații sau abonament pentru șabloane. Fișierele sunt HTML și pot fi deschise direct în browser.
+## Oferta pilot
 
-## Preț de pornire
-
-49 lei pentru pachetul de șabloane. Personalizarea cu datele clientului poate fi oferită separat.
+350 lei pentru o pagină personalizată, cu servicii, contact, apel și WhatsApp. Pentru cine dorește doar fișierele HTML, pachetul de șabloane este disponibil separat la 49 lei.
 
 ## Ce nu este inclus
 
