@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Climserv — demo programări</title>
+  <style>
+    :root{--ink:#12212b;--muted:#61717b;--accent:#147d8d;--bg:#f3f8f9;--card:#fff}
+    *{box-sizing:border-box}body{margin:0;font-family:Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}.wrap{max-width:1050px;margin:auto;padding:0 22px}
+    .top{background:var(--ink);color:#fff;padding:11px 0;font-size:14px}.top .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    header{background:#fff;border-bottom:1px solid #dce7e9}.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.brand{font-weight:800;font-size:21px}.nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-weight:700}
+    .hero{padding:65px 0 55px;background:linear-gradient(135deg,#fff 0%,#e2f3f4 100%)}.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:36px;align-items:center}.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:13px}.hero h1{font-size:clamp(38px,5vw,60px);line-height:1.05;margin:14px 0 18px}.hero p{font-size:19px;color:var(--muted);max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;padding:13px 19px;border-radius:9px;text-decoration:none;font-weight:800}.primary{background:var(--accent);color:#fff}.secondary{background:#fff;color:var(--ink);border:1px solid #bfd2d5}.panel{background:var(--ink);color:#fff;padding:26px;border-radius:18px;box-shadow:0 18px 45px #12212b26}.panel h2{margin-top:0}.item{background:#fff;color:var(--ink);border-radius:11px;padding:12px 15px;margin-top:11px}.item small{display:block;color:var(--muted)}.section{padding:55px 0}.section h2{font-size:32px;margin:0 0 9px}.muted{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px}.card{background:var(--card);border:1px solid #dce7e9;border-radius:13px;padding:21px}.card h3{margin-top:0}.contact{background:var(--ink);color:#fff}.contact p{color:#cbd8dc}.note{font-size:13px;color:#91a9af;margin-top:18px}@media(max-width:760px){.grid,.cards{grid-template-columns:1fr}.hero{padding-top:46px}.nav a{display:none}}
+  </style>
+</head>
+<body>
+  <div class="top"><div class="wrap"><span>Climserv · București și Ilfov</span><span>Luni–Vineri · programări rapide</span></div></div>
+  <header><div class="wrap nav"><div class="brand">Climserv</div><nav><a href="#servicii">Servicii</a><a href="#programare">Programare</a><a href="#contact">Contact</a></nav></div></header>
+  <main>
+    <section class="hero"><div class="wrap grid"><div><div class="eyebrow">Revizie · curățare · reparații</div><h1>Aer condiționat, programat simplu.</h1><p>O pagină mobilă clară care îi ajută pe clienți să aleagă serviciul potrivit și să trimită rapid o cerere de programare.</p><div class="actions"><a class="btn primary" href="#programare">Cere o programare</a><a class="btn secondary" href="tel:+40000000000">Sună acum</a></div></div><div class="panel"><h2>Solicitare rapidă</h2><div class="item"><small>Serviciu</small><span>Curățare / igienizare AC</span></div><div class="item"><small>Ce trimite clientul</small><span>Tipul aparatului, zona și intervalul dorit</span></div><div class="item"><small>Contact</small><span>WhatsApp sau apel direct</span></div></div></div></section>
+    <section class="section" id="servicii"><div class="wrap"><h2>Serviciile Climserv</h2><p class="muted">Informații scurte, utile și acces rapid la programare, de pe orice telefon.</p><div class="cards"><article class="card"><h3>Revizie AC</h3><p class="muted">Cerere clară pentru verificare și întreținere.</p></article><article class="card"><h3>Curățare & igienizare</h3><p class="muted">Clientul alege serviciul și trimite detaliile aparatului.</p></article><article class="card"><h3>Reparații</h3><p class="muted">Contact rapid pentru diagnostic și intervenție.</p></article></div></div></section>
+    <section class="section contact" id="programare"><div class="wrap"><h2>Spune-ne de ce ai nevoie</h2><p>Un formular scurt poate prelua zona, tipul aparatului și intervalul dorit.</p><div class="actions"><a class="btn primary" href="https://wa.me/40000000000?text=Bun%C4%83%20ziua%2C%20doresc%20o%20programare%20pentru%20aer%20condi%C8%9Bionat">Scrie pe WhatsApp</a><a class="btn secondary" href="mailto:contact@example.com">Trimite email</a></div><p class="note" id="contact">Demo generic · textele, culorile, logo-ul și datele pot fi ajustate pentru orice client.</p></div></section>
+  </main>
+</body>
+</html>

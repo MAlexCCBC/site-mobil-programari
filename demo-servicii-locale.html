@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Demo servicii locale</title>
+  <style>
+    :root{--ink:#17202a;--muted:#657281;--accent:#2f7d68;--bg:#f6f8f7;--card:#fff}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.5}
+    .wrap{max-width:1080px;margin:auto;padding:0 22px}.bar{background:var(--ink);color:white;padding:12px 0;font-size:14px}.bar .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+    header{background:white;border-bottom:1px solid #e4e9e6}.nav{display:flex;justify-content:space-between;align-items:center;padding:18px 0}.brand{font-weight:800;font-size:20px}.nav a{color:var(--ink);text-decoration:none;margin-left:18px;font-weight:700}
+    .hero{padding:70px 0 58px;background:linear-gradient(135deg,#fff 0%,#edf6f1 100%)}.grid{display:grid;grid-template-columns:1.1fr .9fr;gap:38px;align-items:center}.eyebrow{color:var(--accent);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:13px}.hero h1{font-size:clamp(38px,5vw,62px);line-height:1.05;margin:14px 0 18px}.hero p{font-size:19px;color:var(--muted);max-width:610px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-block;padding:13px 19px;border-radius:9px;text-decoration:none;font-weight:800}.primary{background:var(--accent);color:white}.secondary{background:white;color:var(--ink);border:1px solid #c8d5ce}.panel{background:var(--ink);color:white;padding:26px;border-radius:18px;box-shadow:0 18px 45px #17202a26}.panel h2{margin-top:0}.item{background:white;color:var(--ink);border-radius:11px;padding:12px 15px;margin-top:11px}.item small{display:block;color:var(--muted)}.section{padding:56px 0}.section h2{font-size:32px;margin:0 0 9px}.muted{color:var(--muted)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px}.card{background:var(--card);border:1px solid #e1e8e3;border-radius:13px;padding:21px}.card h3{margin-top:0}.contact{background:var(--ink);color:white}.contact p{color:#cad4d0}.note{font-size:13px;color:#91a39b;margin-top:18px}@media(max-width:760px){.grid,.cards{grid-template-columns:1fr}.hero{padding-top:46px}.nav a{display:none}}
+  </style>
+</head>
+<body>
+  <div class="bar"><div class="wrap"><span id="area"></span><span id="hours"></span></div></div>
+  <header><div class="wrap nav"><div class="brand" id="brand"></div><nav><a href="#servicii">Servicii</a><a href="#programare">Programare</a><a href="#contact">Contact</a></nav></div></header>
+  <main>
+    <section class="hero"><div class="wrap grid"><div><div class="eyebrow" id="eyebrow"></div><h1 id="headline"></h1><p id="intro"></p><div class="actions"><a class="btn primary" id="mainCta" href="#programare">Cere o programare</a><a class="btn secondary" id="callCta">Sună acum</a></div></div><div class="panel"><h2>Solicitare rapidă</h2><div class="item"><small>Serviciu</small><span id="sampleService"></span></div><div class="item"><small>Răspuns</small><span id="sampleReply"></span></div><div class="item"><small>Contact</small><span>WhatsApp sau apel direct</span></div></div></div></section>
+    <section class="section" id="servicii"><div class="wrap"><h2>Serviciile noastre</h2><p class="muted">Informații clare și acces rapid la programare, de pe telefon.</p><div class="cards" id="cards"></div></div></section>
+    <section class="section contact" id="programare"><div class="wrap"><h2>Spune-ne de ce ai nevoie</h2><p>Trimite o solicitare scurtă și revenim cu un răspuns.</p><div class="actions"><a class="btn primary" id="waCta">Scrie pe WhatsApp</a><a class="btn secondary" id="emailCta">Trimite email</a></div><p class="note" id="contact">Demo personalizabil: logo, culori, texte, servicii și date de contact.</p></div></section>
+  </main>
+  <script>
+    // Schimbă doar aceste valori pentru fiecare prospect.
+    const CONFIG={brand:"Serviciul tău",area:"București și împrejurimi",hours:"Luni–Vineri · 09:00–18:00",eyebrow:"Programări simple, fără drumuri inutile",headline:"Ajutorul de care ai nevoie, la un mesaj distanță.",intro:"Prezintă serviciile, răspunde rapid clienților și primește cereri clare de pe orice telefon.",sampleService:"Consultație / programare",sampleReply:"Răspuns în aceeași zi",phone:"+40000000000",whatsapp:"40000000000",email:"contact@example.com",services:["Serviciu principal","Programări rapide","Ofertă personalizată"]};
+    const $=id=>document.getElementById(id);$("brand").textContent=CONFIG.brand;$("area").textContent=CONFIG.area;$("hours").textContent=CONFIG.hours;$("eyebrow").textContent=CONFIG.eyebrow;$("headline").textContent=CONFIG.headline;$("intro").textContent=CONFIG.intro;$("sampleService").textContent=CONFIG.sampleService;$("sampleReply").textContent=CONFIG.sampleReply;$("callCta").href=`tel:${CONFIG.phone}`;$("waCta").href=`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent("Bună ziua, doresc o programare")}`;$("emailCta").href=`mailto:${CONFIG.email}`;$("cards").innerHTML=CONFIG.services.map((s,i)=>`<article class="card"><h3>${s}</h3><p class="muted">Informații clare, contact rapid și pași simpli pentru client.</p></article>`).join("");
+  </script>
+</body>
+</html>
